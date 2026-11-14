@@ -284,3 +284,36 @@ Aucun sélecteur, texte ni composant touché.
 (bundle principal ≈ 725 kB, 193 kB gzip) — le doublon `proofs/Timeline.ts` /
 `timeline.ts` est réglé (`timeline.ts` → `timeline-data.ts`). **Pas relancé** :
 e2e Selenium.
+
+## [opencode] 2026-11-14 — main figé côté opencode (tag `hackathon-submission`)
+
+**Rien en vol : `main` est libre pour le tag.** Vérifié le 14/11 à 14:55
+(Paris) :
+
+- `gh pr list` sur `Tradoooo/bankkeeper` **et** `BaptisteFaisy/bankkeeper` :
+  **aucune PR ouverte**, brouillons compris ;
+- `git ls-remote --heads origin` : **`main` seule**, aucune branche de travail
+  distante ;
+- dernier merge : **#101** (14/11, 12:43 UTC) ;
+- côté opencode, aucune branche locale en attente de push. Des clones de
+  travail existent (`~/tmp/tw-juges`, `tw-juges2`, `tw-front-chain`,
+  `tw-brief`) mais ils doublonnent des PR déjà mergées (#84, #85, #97) et ne
+  produiront aucune PR.
+
+**P0 (tableau de bord), P1, P2, P3 (vidéo) : renoncés.** Aucune trace — pas de
+PR, pas de branche, et pas une seule mention `P0`–`P3` dans `G-DESIGN/*.md`.
+Ce qui était visé est soit déjà dans `main` sous d'autres titres (#88 les trois
+cadrans, #99 network-first, #100 stamp de déploiement, #101 README), soit
+abandonné. Aucun des quatre ne bloque le tag.
+
+**Écart à vérifier avant de figer** : `G-DESIGN/pour-baptiste-soumission/`
+**n'existe pas** dans l'arbre `origin/main` — `G-DESIGN/` n'y contient que
+des fichiers (11), aucun sous-dossier. Si ce dossier de soumission doit être
+dans le tag, il faut le pousser d'abord ; sinon le tag figera un `main` sans
+lui.
+
+**Engagement** : plus aucune PR ouverte côté opencode après 22:30 (Paris).
+Celle-ci est la dernière.
+
+> Baptiste peut poser `hackathon-submission` sur `main` dès que cette note est
+> mergée.

@@ -11,14 +11,14 @@ port où chaque licence donne une voix.
 
 Projet pour le hackathon NEAR — track **Games With Real Economies**.
 
-> **Deuxième soumission du même auteur — [Demerit](https://github.com/Tradoooo/near_demerit)** :
+> **Autre projet du même auteur, soumis séparément — [Demerit](https://github.com/Tradoooo/near_demerit)** :
 > une licence professionnelle non transférable sur NEAR (ticket 10 « NFTs That Do Something »),
 > lue en direct sur <https://near-demerit.vercel.app>. Deux projets indépendants, un seul auteur :
 > le hackathon NEAR autorise deux entrées par personne, à condition que chaque README nomme
 > l'autre.
 >
-> *Second entry by the same author — [Demerit](https://github.com/Tradoooo/near_demerit): a
-> non-transferable professional licence on NEAR (ticket 10, "NFTs That Do Something"), read live at
+> *Another project by the same author, submitted separately — [Demerit](https://github.com/Tradoooo/near_demerit):
+> a non-transferable professional licence on NEAR (ticket 10, "NFTs That Do Something"), read live at
 > <https://near-demerit.vercel.app>. Two independent projects, one builder: the NEAR Hackathon lets
 > one person enter up to two projects, provided each README names the other one.*
 
